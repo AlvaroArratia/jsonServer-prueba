@@ -2,43 +2,6 @@
     "assets": [
         {
             "id": 0,
-            "gridConnections": [
-                {
-                    "id": 0,
-                    "chargePoints": [
-                        {
-                            "id": 0,
-                            "connectors": [
-                                {
-                                    "id": 0,
-                                    "status": "Available",
-                                    "verbose_name": "Conector 1"
-                                }
-                            ],
-                            "status": "Online",
-                            "capacity": 20,
-                            "name": "alosi",
-                            "gridConnection": 0
-                        }
-                    ],
-                    "name": "Empalme 1",
-                    "capacity": 0,
-                    "created": "",
-                    "updated": "",
-                    "asset": 0
-                },
-                {
-                    "id": 1,
-                    "chargePoints": [
-                        {}
-                    ],
-                    "name": "Empalme 2",
-                    "capacity": 0,
-                    "created": "",
-                    "updated": "",
-                    "asset": 0
-                }
-            ],
             "name": "Asset 1",
             "address": "Calle falsa",
             "town": "Muco",
@@ -55,6 +18,43 @@
             "region": "Raucania",
             "created": "",
             "updated": ""
+        }
+    ],
+    "gridConnections": [
+        {
+            "id": 0,
+            "name": "Empalme 1",
+            "capacity": 0,
+            "created": "",
+            "updated": "",
+            "asset": 0
+        },
+        {
+            "id": 1,
+            "chargePoints": [
+                {}
+            ],
+            "name": "Empalme 2",
+            "capacity": 0,
+            "created": "",
+            "updated": "",
+            "asset": 0
+        }
+    ],
+    "chargePoints": [
+        {
+            "id": 0,
+            "status": "Online",
+            "capacity": 20,
+            "name": "alosi",
+            "gridConnection": 0
+        }
+    ],
+    "connectors": [
+        {
+            "id": 0,
+            "status": "Available",
+            "verbose_name": "Conector 1"
         }
     ]
 }
